@@ -1,11 +1,11 @@
-FROM node:16.15.0
+FROM node:18.17.0
 
 RUN mkdir /nunustudio
 COPY . /nunustudio
 WORKDIR /nunustudio
 
 RUN npm install --legacy-peer-deps
-RUN npm run napa
+# RUN npm run napa
 
 EXPOSE 8081
 

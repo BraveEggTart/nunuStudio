@@ -21,7 +21,7 @@ function AboutTab(parent, closeable, container, index)
 	this.logo.style.width = "50%";
 	this.logo.style.height = "20%";
 	this.logo.style.objectFit = "contain";
-	this.logo.src = Global.FILE_PATH + "logo.png";
+	this.logo.src = Global.FILE_PATH + "logo.jpg";
 	this.element.appendChild(this.logo);
 
 	// Version

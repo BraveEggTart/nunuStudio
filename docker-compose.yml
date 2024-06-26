@@ -1,0 +1,9 @@
+version: '3'
+services:
+  kinkostudio:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "8081:8081"
+    command: npm run start-docker
