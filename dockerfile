@@ -1,4 +1,4 @@
-FROM node:18.17.0
+FROM atomhub.openatom.cn/library/node:18.17
 
 RUN mkdir /nunustudio
 COPY . /nunustudio
